@@ -1,0 +1,99 @@
+html, body {
+  margin: 10;
+  background-color:#efefef;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  width: 500px;
+  height: 640px;
+  padding: 5px;
+  margin: 10 auto;
+  background-color: #ddd;
+}
+
+.banner {
+  height: 80px;
+  width: 100%;
+}
+
+.banner p {
+  float: 80px;
+  display: inline-block;
+}
+
+// controls panel 
+.controls {
+  height: 100px;
+  margin: 5px 0px;
+  position: relative;
+}
+
+.items {
+  height: 30px;
+}
+
+#messageInput {
+  width: 440px;
+  max-width: 440px;
+  height: 90px;
+  max-height: 90px;
+}
+
+#sendBtn {
+  width: 50px;
+  height: 96px;
+  float: right;
+}
+
+#loginWrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(5,5,5,0.6);
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding-top: 200px;
+}
+
+#nickWrapper {
+  display: none;
+}
+
+#historyMsg {
+  height: 400px;
+  background-color: #fff;
+  overflow: auto;
+  padding: 2px;
+}
+
+#historyMsg img {
+  max-width: 99%;
+}
+
+.timespan {
+  color: #ddd;
+}
+
+#emojiWrapper {
+  display: none;
+  width: 500px;
+  bottom: 160px;
+  position: absolute;
+  background-color: #aaa;
+  box-shadow: 0 0 10px #555;
+}
+
+#emojiWrapper div {
+  margin: 2px;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+} 
+
+#emojiWrapper span:hover {
+  background-color: blue;
+}

@@ -1,0 +1,37 @@
+<head>
+  <link href="http://cdn.staticfile.org/emoji/0.2.2/emoji.css" rel="stylesheet" type="text/css" />
+  <script src="http://cdn.staticfile.org/emoji/0.2.2/emoji.js"></script>
+  <script src="socket.io.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="banner"> 
+    <h1>Emoji Chat</h1>
+    <span id="status">online</span>
+  </div>
+  <div id="historyMsg">
+  </div>
+  <div class="controls">  
+    <div class="items">
+      <input id='colorStyle' type="color" placeHolder='#000' title="font color" />
+      <input id='emojiButton' type="button" value='emoji' title="emoji" />
+      <input id='clearBtn' type="button" value="clear" title="clear screen">
+    </div>
+    <textarea id="messageInput" placeHolder="enter to send"></textarea>
+    <input id="sendBtn" type="button" value="SEND">
+    <div id="emojiWrapper">
+    </div>
+  </div>
+</div>
+
+<div id="loginWrapper">
+  <p id="info">Connect to server</p>
+  <div id="nickWrapper"> 
+    <input type="TEXT" placeHolder="nickname" id="nicknameInput" />
+    <input type="button" value="OK" id="loginBtn"/>
+  </div>
+</div>
+</body>
